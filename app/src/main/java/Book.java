@@ -6,6 +6,20 @@ public class Book {
     private String mPubYear;
 
     public Book (String bTitle, String bAuthor, String bPubYear) {
+        mBookTitle = bTitle;
+        mAuthor = bAuthor;
+        mPubYear = bPubYear;
+    }
 
+    public String getmBookTitle() {
+        return mBookTitle;
+    }
+
+    public String getmAuthor() {
+        return mAuthor;
+    }
+
+    public String getmPubYear() {
+        return mPubYear;
     }
 }
